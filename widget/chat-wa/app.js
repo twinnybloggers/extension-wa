@@ -107,79 +107,79 @@ function jquery() {
     var cw_stamp = hours + ":" + minutes;
 
     var cw_html5 = '\
-                    <!-- CIEEE......... CALON PLAGIAT LAGI INSPECT WIDGET ANE! :V - BELAJAR YANG RAJINNNNN.. JANGAN CUMA NGINTIP².. KAYA YANG "GAK MAMPU" BIKIN AJA!! WKWKWKWK -->\
-                    <audio style="display:none;" class="cw-audio" controls preload="metadata" volume="1.0">\
-                        <source src="../_lib/mp3/whatsapp.mp3">\
-                    </audio>\
-                    <div class="cw-btn">\
-                        <div class="cw-btn-avatar" style="background-image:url(' + cw_avatar + ');"></div>\
-                        <div class="cw-btn-hello">\
-                            ' + cw_hello + '\
+        <!-- CIEEE......... CALON PLAGIAT LAGI INSPECT WIDGET ANE! :V - BELAJAR YANG RAJINNNNN.. JANGAN CUMA NGINTIP².. KAYA YANG "GAK MAMPU" BIKIN AJA!! WKWKWKWK -->\
+        <audio style="display:none;" class="cw-audio" controls preload="metadata" volume="1.0">\
+            <source src="../_lib/mp3/whatsapp.mp3">\
+        </audio>\
+        <div class="cw-btn">\
+            <div class="cw-btn-avatar" style="background-image:url(' + cw_avatar + ');"></div>\
+            <div class="cw-btn-hello">\
+                ' + cw_hello + '\
+            </div>\
+        </div>\
+        <div class="cw-box">\
+            <div class="cw-lightbox">\
+                <div class="cw-lightbox-overlay"></div>\
+                <div class="cw-lightbox-wrap">\
+                    <div class="cw-lightbox-avatar" style="background-image:url(' + cw_avatar + ');"></div>\
+                    <div class="cw-lightbox-link">\
+                        <a href="' + (cw_profile_website ? cw_profile_website : 'https://website.com') + '" title="Website" rel="nofollow" target="_blank" class="website">website</a>\
+                        <a href="' + (cw_profile_instagram ? cw_profile_instagram : 'https://instagram.com') + '" title="Instagram" rel="nofollow" target="_blank" class="instagram">instagram</a>\
+                        <a href="' + (cw_profile_facebook ? cw_profile_facebook : 'https://facebook.com') + '" title="Facebook" rel="nofollow" target="_blank" class="facebook">facebook</a>\
+                        <a href="' + (cw_profile_twitter ? cw_profile_twitter : 'https://twitter.com') + '" title="Twitter" rel="nofollow" target="_blank" class="twitter">twitter</a>\
+                    </div>\
+                </div>\
+            </div>\
+            <div class="cw-header">\
+                <div class="cw-avatar">\
+                    <img src="' + cw_avatar + '" title="' + cw_name + '"/>\
+                    <div class="cw-indicator" title="Online"></div>\
+                </div>\
+                <div class="cw-info">\
+                    <div class="cw-profile">\
+                        <div class="cw-name">\
+                            ' + cw_name + '\
+                        </div>\
+                        <div class="cw-status">\
+                            ' + cw_status + '\
                         </div>\
                     </div>\
-                    <div class="cw-box">\
-                        <div class="cw-lightbox">\
-                            <div class="cw-lightbox-overlay"></div>\
-                            <div class="cw-lightbox-wrap">\
-                                <div class="cw-lightbox-avatar" style="background-image:url(' + cw_avatar + ');"></div>\
-                                <div class="cw-lightbox-link">\
-                                    <a href="' + (cw_profile_website ? cw_profile_website : 'https://website.com') + '" title="Website" rel="nofollow" target="_blank" class="website">website</a>\
-                                    <a href="' + (cw_profile_instagram ? cw_profile_instagram : 'https://instagram.com') + '" title="Instagram" rel="nofollow" target="_blank" class="instagram">instagram</a>\
-                                    <a href="' + (cw_profile_facebook ? cw_profile_facebook : 'https://facebook.com') + '" title="Facebook" rel="nofollow" target="_blank" class="facebook">facebook</a>\
-                                    <a href="' + (cw_profile_twitter ? cw_profile_twitter : 'https://twitter.com') + '" title="Twitter" rel="nofollow" target="_blank" class="twitter">twitter</a>\
-                                </div>\
-                            </div>\
-                        </div>\
-                        <div class="cw-header">\
-                            <div class="cw-avatar">\
-                                <img src="' + cw_avatar + '" title="' + cw_name + '"/>\
-                                <div class="cw-indicator" title="Online"></div>\
-                            </div>\
-                            <div class="cw-info">\
-                                <div class="cw-profile">\
-                                    <div class="cw-name">\
-                                        ' + cw_name + '\
-                                    </div>\
-                                    <div class="cw-status">\
-                                        ' + cw_status + '\
-                                    </div>\
-                                </div>\
-                            </div>\
-                            <div class="cw-close"></div>\
-                        </div>\
-                        <div class="cw-hello">\
-                            <div class="cw-mimin">\
-                                ' + cw_intro + '\
-                                <small>' + cw_stamp + '</small>\
-                            </div>\
-                            <!-- <br/>\
-                            <div class="cw-reply">\
-                                ' + cw_intro + '\
-                                <small>' + cw_stamp + '</small>\
-                            </div> -->\
-                        </div>\
-                        <form class="cw-form-text" autocomplete="off">\
-                            <input type="text" name="text" placeholder="' + cw_translate[0] + '" required>\
-                            <button class="cw-send"></button>\
-                            ' + cw_opengraph + '\
-                        </form>\
-                        <form class="cw-form-user" autocomplete="off">\
-                            <div class="cw-user-wrap">\
-                                <input type="hidden" name="text">\
-                                <input type="hidden" name="phone" value="' + cw_country + cw_number + '">\
-                                <div class="cw-user-title">' + cw_translate[1] + '</div>\
-                                <input tabindex="1" type="text" name="name" placeholder="' + cw_translate[2] + '" value="' + (localStorage.getItem('cw_name') ? localStorage.getItem('cw_name') : '') + '" required>\
-                                <div class="cw-tel">\
-                                    <input tabindex="3" type="text" name="country" placeholder="+' + cw_country + '" value="+' + cw_country + '" required>\
-                                    <input tabindex="2" type="tel" name="whatsapp" placeholder="' + cw_translate[3] + '" value="' + (localStorage.getItem('cw_whatsapp') ? localStorage.getItem('cw_whatsapp') : '') + '" required>\
-                                </div>\
-                                <button class="cw-submit"><b>' + cw_translate[4] + '</b></button>\
-                                <center class="cw-back">' + cw_translate[5] + ' <span>' + cw_translate[6] + '</span></center>\
-                            </div>\
-                        </form>\
+                </div>\
+                <div class="cw-close"></div>\
+            </div>\
+            <div class="cw-hello">\
+                <div class="cw-mimin">\
+                    ' + cw_intro + '\
+                    <small>' + cw_stamp + '</small>\
+                </div>\
+                <!-- <br/>\
+                <div class="cw-reply">\
+                    ' + cw_intro + '\
+                    <small>' + cw_stamp + '</small>\
+                </div> -->\
+            </div>\
+            <form class="cw-form-text" autocomplete="off">\
+                <input type="text" name="text" placeholder="' + cw_translate[0] + '" required>\
+                <button class="cw-send"></button>\
+                ' + cw_opengraph + '\
+            </form>\
+            <form class="cw-form-user" autocomplete="off">\
+                <div class="cw-user-wrap">\
+                    <input type="hidden" name="text">\
+                    <input type="hidden" name="phone" value="' + cw_country + cw_number + '">\
+                    <div class="cw-user-title">' + cw_translate[1] + '</div>\
+                    <input tabindex="1" type="text" name="name" placeholder="' + cw_translate[2] + '" value="' + (localStorage.getItem('cw_name') ? localStorage.getItem('cw_name') : '') + '" required>\
+                    <div class="cw-tel">\
+                        <input tabindex="3" type="text" name="country" placeholder="+' + cw_country + '" value="+' + cw_country + '" required>\
+                        <input tabindex="2" type="tel" name="whatsapp" placeholder="' + cw_translate[3] + '" value="' + (localStorage.getItem('cw_whatsapp') ? localStorage.getItem('cw_whatsapp') : '') + '" required>\
                     </div>\
-                    <!-- CIEEE......... CALON PLAGIAT LAGI INSPECT WIDGET ANE! :V - BELAJAR YANG RAJINNNNN.. JANGAN CUMA NGINTIP².. KAYA YANG "GAK MAMPU" BIKIN AJA!! WKWKWKWK -->\
-                ';
+                    <button class="cw-submit"><b>' + cw_translate[4] + '</b></button>\
+                    <center class="cw-back">' + cw_translate[5] + ' <span>' + cw_translate[6] + '</span></center>\
+                </div>\
+            </form>\
+        </div>\
+        <!-- CIEEE......... CALON PLAGIAT LAGI INSPECT WIDGET ANE! :V - BELAJAR YANG RAJINNNNN.. JANGAN CUMA NGINTIP².. KAYA YANG "GAK MAMPU" BIKIN AJA!! WKWKWKWK -->\
+    ';
 
     cw.html(cw_html5);
 
@@ -207,7 +207,7 @@ function jquery() {
 
         if (!sessionStorage.getItem('cw_open')) {
             setTimeout(function() {
-                $('.cw-mimin', cw).html('<span style="font-size:80%;"><b>' + cw_name + '</b> '+cw_translate[7]+'</span>');
+                $('.cw-mimin', cw).html('<span style="font-size:80%;"><b>' + cw_name + '</b> ' + cw_translate[7] + '</span>');
                 $('.cw-mimin', cw).addClass('open');
                 setTimeout(function() {
                     $('.cw-mimin', cw).removeClass('hello');
@@ -329,7 +329,7 @@ function jquery() {
         var name = $('.cw-form-user [name=name]', cw);
         var whatsapp = $('.cw-form-user [name=whatsapp]', cw);
         var country = $('.cw-form-user [name=country]', cw);
-        if (!confirm(cw_translate[1] +' ' + name.val() + ' ( +' + parseInt(country.val()) + ' ' + parseInt(whatsapp.val()) + ' ) ?')) {
+        if (!confirm(cw_translate[1] + ' ' + name.val() + ' ( +' + parseInt(country.val()) + ' ' + parseInt(whatsapp.val()) + ' ) ?')) {
             $('.cw-form-user', cw).addClass('open');
             setTimeout(function() {
                 name.focus();
