@@ -167,7 +167,7 @@ function jquery() {
                 <div class="cw-user-wrap">\
                     <input type="hidden" name="text">\
                     <input type="hidden" name="phone" value="' + cw_country + cw_number + '">\
-                    <div class="cw-user-title">' + cw_translate[1] + '</div>\
+                    <div class="cw-user-title">' + cw_translate[1] + ' :</div>\
                     <input tabindex="1" type="text" name="name" placeholder="' + cw_translate[2] + '" value="' + (localStorage.getItem('cw_name') ? localStorage.getItem('cw_name') : '') + '" required>\
                     <div class="cw-tel">\
                         <input tabindex="3" type="text" name="country" placeholder="+' + cw_country + '" value="+' + cw_country + '" required>\
