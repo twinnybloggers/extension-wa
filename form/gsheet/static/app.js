@@ -292,7 +292,7 @@ function jquery_onload() {
                     $('.image-' + id).remove();
 
                     $('\
-                        <a class="image-' + id + '" href="' + json.data.display.url + '" data-lightbox="image" data-title="' + data_label + '">\
+                        <a class="image-' + id + '" href="' + json.data.display_url + '" data-lightbox="image" data-title="' + data_label + '">\
                             <img src="' + json.data.thumb.url + '"/>\
                             <span class="remove"></span>\
                         </a>\
@@ -301,7 +301,7 @@ function jquery_onload() {
                     $('#' + id).attr('type', 'url');
                     $('#' + id).attr('readonly', true);
                     $('#' + id).attr('onclick', 'select()');
-                    $('#' + id).val(json.data.display.url + '?id=' + json.data.id);
+                    $('#' + id).val(json.data.display_url + '?id=' + json.data.id);
 
                     form.find('.progress').remove();
 
