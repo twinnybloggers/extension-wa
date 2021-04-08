@@ -1,5 +1,5 @@
 // const url_home = '';
-const url_home = 'https://kangriandotnet.github.io/wa/form/';
+const url_home = 'https://kangriandotnet.github.io/form/gsheet/';
 
 // inject css
 var css_array = [
