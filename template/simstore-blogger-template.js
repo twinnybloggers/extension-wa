@@ -1,21 +1,21 @@
 /* ================================================================================================
 
-			Peringatan !
+    Peringatan !
 
 ===================================================================================================
 
-			Mengubah / Menghapus file javascript (js) ini dapat mengakibatkan :
+    Mengubah / Menghapus file javascript (js) ini dapat mengakibatkan :
 
-			1. Kerusakan / error pada tempalte
-			2. Menghilangkan fungsi update / perbaikan otomatis pada template
-			3. Tidak akan mendapatkan support/bantuan dari kreator template
+    1. Kerusakan / error pada tempalte
+    2. Menghilangkan fungsi update / perbaikan otomatis pada template
+    3. Tidak akan mendapatkan support/bantuan dari kreator template
 
-			Terima kasih sudah menggunakan karya saya. :)
+    Terima kasih sudah menggunakan karya saya. :)
 
-			Salam,
-			KangRian.NET
+    Salam,
+    KangRian.NET
 
-			Terakhir Diperbarui : 26/12/2021 @ 15:57
+    Terakhir Diperbarui : 26/12/2021 @ 15:57
 
 ================================================================================================ */
 
