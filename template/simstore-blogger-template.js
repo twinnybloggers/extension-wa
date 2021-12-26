@@ -1,7 +1,21 @@
 /* ================================================================================================
 
-Peringatan : Menghapus script lisensi berikut dapat mengakibatkan kerusakan / error pada template..
-Diperbarui : 26/12/2021 @ 15:38
+			Peringatan !
+
+===================================================================================================
+
+			Mengubah / Menghapus file javascript (js) ini dapat mengakibatkan :
+
+			1. Kerusakan / error pada tempalte
+			2. Menghilangkan fungsi update / perbaikan otomatis pada template
+			3. Tidak akan mendapatkan support/bantuan dari kreator template
+
+			Terima kasih sudah menggunakan karya saya. :)
+
+			Salam,
+			KangRian.NET
+
+			Terakhir Diperbarui : 26/12/2021 @ 15:57
 
 ================================================================================================ */
 
