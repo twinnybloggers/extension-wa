@@ -1,4 +1,15 @@
-/* █████████ reset */
+/* █████████ darkmode █████████ */
+html.dark {
+    --key: #fff;
+    --black: #aaa;
+    --white: #232323;
+    --silver: #1e1e1e;
+    --gray: #666;
+    --border: rgba(0 0 0 / 30%);
+    --card_shadow: 0 10px 15px -3px rgb(0 0 0 / 15%), 0 4px 6px -2px rgb(0 0 0 / 15%);
+}
+
+/* █████████ reset █████████ */
 
 *,
 *:before,
@@ -119,7 +130,7 @@ hr {
     border-bottom: 1px solid var(--border);
 }
 
-/* █████████ loading */
+/* █████████ loading █████████ */
 
 @keyframes spinner {
     to {
@@ -175,7 +186,7 @@ body.loading:after {
     margin-left: -20px;
 }
 
-/* █████████ layout */
+/* █████████ layout █████████ */
 
 .wrapper {
     width: var(--lebar);
@@ -477,7 +488,7 @@ body {
     padding: 20px 0 40px;
 }
 
-/* █████████ homepage */
+/* █████████ homepage █████████ */
 
 #slideshow-home {
     margin-bottom: 40px;
@@ -551,7 +562,7 @@ body {
     }
 }
 
-/* █████████ label */
+/* █████████ label █████████ */
 
 #label-banner {
     margin-bottom: 20px;
@@ -574,7 +585,7 @@ body {
     }
 }
 
-/* █████████ article */
+/* █████████ article █████████ */
 #main article .post-body table.field {
     display: none;
 }
@@ -1530,7 +1541,7 @@ html.dark #main header.page-title #sort select {
     color: var(--black);
 }
 
-/* █████████ icon */
+/* █████████ icon █████████ */
 
 i.icon {
     font-weight: normal;
@@ -1576,7 +1587,7 @@ small i.icon.right {
     margin-left: 5px;
 }
 
-/* █████████ pop */
+/* █████████ pop █████████ */
 
 [target*="pop-"] {
     cursor: pointer;
@@ -1730,7 +1741,7 @@ body.pop-open {
     }
 }
 
-/* █████████ lightbox */
+/* █████████ lightbox █████████ */
 
 .lightbox:not([target]) {
     cursor: zoom-in;
@@ -1785,7 +1796,7 @@ body.pop-open {
     transform: scale(1);
 }
 
-/* █████████ Slideshow */
+/* █████████ Slideshow █████████ */
 
 .slideshow {
     display: block;
@@ -1893,7 +1904,7 @@ body.pop-open {
     }
 }
 
-/* █████████ Custom Feed */
+/* █████████ Custom Feed █████████ */
 
 [data-feed] {
     min-height: 200px;
